@@ -1,0 +1,10 @@
+from pybricks.hubs import InventorHub
+from pybricks.parameters import Color
+from pybricks.tools import wait
+from umath import sin, pi
+
+hub = InventorHub()
+
+hub.light.animate([Color.RED, Color.BLUE, Color.NONE], interval=500)
+
+wait(10000)
